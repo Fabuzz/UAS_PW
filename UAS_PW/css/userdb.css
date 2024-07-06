@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffb74d;
+    color: #ffecb3;
+}
+.class li {
+    margin-right: 50px;
+}
+header {
+    background-color: #ffb74d;
+    color: #0f0f10;
+}
+header .logo a {
+    text-decoration: none;
+    font-size: 36px;
+    
+}
+
+.user a {
+    font-size: 25px;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+.container h2 {
+    color: #0f0f10;
+    font-size: 60px;
+    
+}
+.navbar li {
+    font-size: 30px;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.library .card {
+    background-color: #2a475e;
+    color: #c6d4df;
+    border: none;
+}
+
+.library .card-title {
+    color: #fff;
+}
+
+.library .btn-primary {
+    background-color: #2a475e;
+    border: none;
+}
+
+.library .btn-primary:hover {
+    background-color: #417a9b;
+}
+
+.p {
+    background-color: #ffb74d;
+}
+footer {
+    text-align: center;
+    background-color: #ffb74d;
+}
+section {
+    background-image: url(img/background.jpg);
+}
+
+/* Search bar styles */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 300px;
+    color: #333;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #0f0f10;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #f5f6f6;
+}
+
+/* Results styles */
+.results {
+    margin-top: 20px;
+}

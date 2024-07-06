@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #f8fafc;
+    background-image: url(img/background.jpg);
+}
+header {
+    background-color: #ffb74d;
+}
+header .logo a {
+    text-decoration: none;
+    font-size: 36px;
+}
+header li {
+    font-size: 30px;
+}
+.navbar {
+    margin-top: 30px;
+}
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.game-details h2, .game-details p {
+    color: #f3f5f7;
+}
+
+.card {
+    background-color: #2a475e;
+    color: #c6d4df;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #66c0f4;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #417a9b;
+}
+
+.btn-secondary {
+    background-color: #c7d5e0;
+    border: none;
+    color: #000102;
+}
+
+.btn-secondary:hover {
+    background-color: #a2b8cc;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffb74d;
+}

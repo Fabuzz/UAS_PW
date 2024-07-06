@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .logo a {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.sidebar {
+    min-width: 250px;
+    background-color: #ffecb3; /* Light yellow for sidebar */
+    padding-top: 20px;
+}
+.sidebar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #b5b5ac; /* Slightly darker yellow on hover */
+}
+.table-light-yellow {
+    background-color: #fffacd; /* Warna kuning muda */
+}
+
+.table-light-yellow th,
+.table-light-yellow td {
+    border: 1px solid #dee2e6; /* Border standar Bootstrap */
+}
+
+footer {
+    text-align: center;
+    background-color: #ffecb3;
+    padding: 10px;
+    position: bottom;
+    width: 100%;
+    height: 50px; /* contoh tinggi objek */
+}
